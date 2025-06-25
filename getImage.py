@@ -26,7 +26,8 @@ for x in range(320):
             text += "1"
         else:
             text += "0"
-            set_pixel(x,y,(0,0,0))
+            if parameters.showResult:
+                set_pixel(x,y,(0,0,0))
 
 with open(parameters.outputFile,"w") as file:
     file.write(text)
