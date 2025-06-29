@@ -29,7 +29,7 @@ def compress_binary_image(binary_string):
             else:
                 currentChar = "1"
                               
-    if result[0] == "0":
+    if text[0] == "0":
         return "0" + ''.join(result)
     else:
         return ''.join(result)
