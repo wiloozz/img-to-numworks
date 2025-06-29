@@ -9,3 +9,5 @@ Then, run the getImage script that converts the image to binary (1 for white, 0 
 Finally, run the encode.py script, it compresses the binary.
 
 All you have to do now is to copy the decode.py script, change the "compressed_input" variable to what was written in the output file, and send it to your numworks calculator :)
+
+(The minified decode file does the same as the normal decode file but it is more compact to save space on your numworks)
